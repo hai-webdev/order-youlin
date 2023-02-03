@@ -1,0 +1,67 @@
+.pc-header {
+    .main-head {
+      .left-layout {
+        .logo {
+          width: 128px;
+          height: 48px;
+          background-size: contain;
+        }
+      }
+      .right-layout {
+        .nav-list {
+          .nav-item {
+            margin: 0 10px;
+            & > a {
+              font-size: 14px;
+            }
+          }
+        }
+        .search-box {
+          margin-right: 15px;
+          margin-left: 20px;
+          width: 130px;
+          input {
+            padding-left: 12px;
+            &::placeholder {
+              font-size: 12px;
+            }
+          }
+        }
+        .language-box {
+          position: relative;
+          .language-show {
+            cursor: pointer;
+            width: 56px;
+            height: 32px;
+            span {
+              margin-right: 4px;
+              font-size: 12px;
+            }
+          }
+          .language-list {
+            display: none;
+            position: absolute;
+            width: 100%;
+            margin-top: 5px;
+            text-align: center;
+            padding: 10px 0;
+            background-color: rgba(255, 255, 255, 0.2);
+            border-radius: 16px;
+            .language-item {
+              line-height: 32px;
+              a {
+                color: #fff;
+                font-size: 12px;
+              }
+              &:hover {
+                background-color: #fff;
+                a {
+                  color: #23aed7;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }

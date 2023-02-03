@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+</head>
+
+<body>
+  <!-- 引入公共页头 -->
+  <%= require("html-loader!../common/header/index.html") %>
+    <section class="banner-container">
+      <div class="center">
+        <div class="text">
+          <h1 class="title wow fadeInUp">联系我们</h1>
+          <h2 class="entitle wow fadeInUp" data-wow-delay="100ms">contact us</h2>
+        </div>
+      </div>
+      <img src="/public/images/contact/banner.jpg" alt="">
+    </section>
+    <section class="menu-container">
+      <div class="center menu-wrapper">
+        <ul class="menu-list">
+          <li class="menu-item wow fadeInLeft on" data-wow-delay="100ms">
+            <a href="#contact">联系友林</a>
+          </li>
+          <li class="menu-item wow fadeInLeft">
+            <a href="#message">问卷调查</a>
+          </li>
+        </ul>
+        <div class="crumbs wow fadeInRight">
+          <a href="">首页</a> &gt;
+          <a href="">联系友林</a>
+        </div>
+      </div>
+    </section>
+    <section class="contact-container" id="contact">
+      <div class="center contact-wrapper">
+        <div class="left-layout wow fadeInLeft">
+          <div class="title">关注友林医药</div>
+          <ul class="contact-list">
+            <li class="contact-item">
+              <span>微信：Youlinyiyao</span>
+              <a href=""><i class="iconfont icon-youjiantou"></i></a>
+            </li>
+            <li class="contact-item">
+              <span>微博：株式会社 友林医药</span>
+              <a href=""><i class="iconfont icon-youjiantou"></i></a>
+            </li>
+            <li class="contact-item">
+              <span>小红书：友林医药</span>
+              <a href=""><i class="iconfont icon-youjiantou"></i></a>
+            </li>
+            <li class="contact-item">
+              <span>京东：友林医药海外旗舰店</span>
+              <a href=""><i class="iconfont icon-youjiantou"></i></a>
+            </li>
+          </ul>
+          <div class="other-infos">
+            <p class="address">
+              东京都千代田区外神田6-2-9外神田六丁目ビル１階
+            </p>
+            <ul class="infos-list">
+              <li class="info-item">
+                <div class="icon">MOB</div>
+                <a href="">+81-80-9697-5888</a>
+              </li>
+              <li class="info-item">
+                <div class="icon">TEL</div>
+                <a href="">+81-035826-4342</a>
+              </li>
+              <li class="info-item">
+                <div class="icon">FAX</div>
+                <a href="">+81-03-6240-1383</a>
+              </li>
+              <li class="info-item">
+                <div class="icon">E-Mail</div>
+                <a href="">info@yriyaku.xyz</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="right-layout wow fadeInRight">
+          <div class="map">
+            <img src="/public/images/contact/map.jpg" alt="">
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="message-container wow fadeInUp" id="message">
+      <div class="message-wrapper center">
+        <div class="title">联系您的私人医生</div>
+        <div class="desc">
+          病程记录、出入院记录请以PDF格式发送至邮箱 <a href="mailto:info@yriyaku.com">info@yriyaku.com</a><br>
+          CT/核磁共振结构可以以DICOM文件发送
+        </div>
+        <form action="" class="form">
+          <label class="label" for="">
+            <span>
+              <i>*</i>
+              咨询内容
+            </span>
+            <div class="select">
+              <select name="" id="">
+                <option value="" selected disabled>请选择您的咨询内容</option>
+                <option value="咨询内容1">咨询内容1</option>
+              </select>
+            </div>
+          </label>
+          <label class="label" for="">
+            <span>
+              <i>*</i>
+              称呼姓名
+            </span>
+            <input type="text" placeholder="中文+拼音大写">
+          </label>
+          <label class="label" for="">
+            <span>
+              <i>*</i>
+              联系方式
+            </span>
+            <input type="text" placeholder="请输入您的联系方式">
+          </label>
+          <label class="label" for="">
+            <span>
+              <i>*</i>
+              电子邮箱
+            </span>
+            <input type="text" placeholder="请输入您的电子邮箱">
+          </label>
+          <label class="label w100" for="">
+            <span>
+              <i>*</i>
+              问题简述
+            </span>
+            <input type="text" placeholder="请输入您的面临的问题">
+          </label>
+          <button type="submit">
+            <span>立即提交</span>
+            <i class="iconfont icon-youjiantou"></i>
+          </button>
+        </form>
+      </div>
+    </section>
+    <!-- 引入公共页尾 -->
+    <%= require("html-loader!../common/footer/index.html") %>
+</body>
+
+</html>

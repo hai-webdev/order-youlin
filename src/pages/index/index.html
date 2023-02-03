@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+</head>
+
+<body>
+  <!-- 引入公共页头 -->
+  <%= require("html-loader!../common/header/index.html") %>
+    <section class="banner-container">
+      <img src="/public/images/home/banner.jpg" alt="让健康伴随每一家" class="banner">
+      <div class="text">
+        <h2 class="title wow fadeInUp">让健康伴随每一家</h2>
+        <p class="entitle wow fadeInUp" data-wow-delay="100ms">Have a healthy family life</p>
+      </div>
+      <div class="down-btn">
+        <img src="/public/images/down.png" alt="滑动按钮">
+      </div>
+    </section>
+    <section class="home-menu-container center">
+      <ul class="home-menu-list">
+
+        <li class="home-menu-item  wow fadeInUp" data-wow-delay="300ms">
+          <div class="icon">
+            <img src="/public/images/home/icon2.png" alt="">
+          </div>
+          <div class="text">
+            <h2 class="title">海外就医服务</h2>
+            <a href="" class="more">
+              <span>了解更多</span>
+              <i class="iconfont icon-youjiantou"></i>
+            </a>
+          </div>
+        </li>
+        <li class="home-menu-item  wow fadeInUp" data-wow-delay="500ms">
+          <div class="icon">
+            <img src="/public/images/home/icon3.png" alt="">
+          </div>
+          <div class="text">
+            <h2 class="title">我的私人医生</h2>
+            <a href="" class="more">
+              <span>了解更多</span>
+              <i class="iconfont icon-youjiantou"></i>
+            </a>
+          </div>
+        </li>
+        <li class="home-menu-item  wow fadeInUp" data-wow-delay="100ms">
+          <div class="icon">
+            <img src="/public/images/home/icon1.png" alt="">
+          </div>
+          <div class="text">
+            <h2 class="title">海外购物</h2>
+            <a href="" class="more">
+              <span>了解更多</span>
+              <i class="iconfont icon-youjiantou"></i>
+            </a>
+          </div>
+        </li>
+      </ul>
+      <div class="note">
+        友林业务范围覆盖日本、中国及东南亚，是以医疗服务药品销售为核心产业的医疗服务集团。
+      </div>
+      <a href="" class="more wow fadeInLeft">
+        <i class="iconfont more-btn icon-youjiantou"></i>
+        <span>了解详情</span>
+      </a>
+    </section>
+    <section class="number-container">
+      <div class="center-layout center">
+        <div class="left-layout">
+          <h2 class="title wow fadeInUp">健康生活 · 数字医疗</h2>
+          <div class="desc wow fadeInUp">
+            友林医疗与濑田诊所合作，从癌症的预防与治疗到抗衰老，针对每位患者提出最适合的建议治疗方案。
+            针对有疾病方面的烦恼或对健康有所不安等各种情况来访的患者，我们会依照患者的医疗需求，以再
+            生医疗为中心，提供已被证实且确实有效的治疗。
+          </div>
+          <a href="" class="more wow fadeInLeft">
+            <i class="iconfont more-btn icon-youjiantou"></i>
+          </a>
+          <ul class="number-list">
+            <li class="number-item">
+              <div class="num-title">
+                <span class="num">20</span>
+                <span class="text">多年</span>
+              </div>
+              <p>治疗经验</p>
+            </li>
+            <li class="number-item">
+              <div class="num-title">
+                <span class="num">20000</span>
+                <span class="text">多名</span>
+              </div>
+              <p>治疗案例</p>
+            </li>
+          </ul>
+          <div class="note wow fadeInUp">
+            为了能实现大众的健康长寿，特别专注於「癌症」<br>「疾病预防」丶「慢性病管理」的医疗。
+          </div>
+        </div>
+        <div class="right-layout">
+          <div class="swiper-container number-swiper">
+            <ul class="swiper-wrapper">
+              <li class="swiper-slide team-item">
+                <div class="text">
+                  <div class="title">
+                    <span>癌症</span>
+                    <i class="iconfont icon-youjiantou"></i>
+                  </div>
+                  <div class="desc">
+                    在癌症治疗上，我们很早就已导入精准医学（个别化医疗） 的概念，加上含基因信息在内的疾病详细资讯 ...
+                  </div>
+                </div>
+                <div class="bg" style="background-image: url(/public/images/home/cancer.jpg);"></div>
+              </li>
+              <li class="swiper-slide team-item">
+                <div class="text">
+                  <div class="title">
+                    <span>癌症</span>
+                    <i class="iconfont icon-youjiantou"></i>
+                  </div>
+                  <div class="desc">
+                    在癌症治疗上，我们很早就已导入精准医学（个别化医疗） 的概念，加上含基因信息在内的疾病详细资讯 ...
+                  </div>
+                </div>
+                <div class="bg" style="background-image: url(/public/images/home/cancer.jpg);"></div>
+              </li>
+              <li class="swiper-slide team-item">
+                <div class="text">
+                  <div class="title">
+                    <span>癌症</span>
+                    <i class="iconfont icon-youjiantou"></i>
+                  </div>
+                  <div class="desc">
+                    在癌症治疗上，我们很早就已导入精准医学（个别化医疗） 的概念，加上含基因信息在内的疾病详细资讯 ...
+                  </div>
+                </div>
+                <div class="bg" style="background-image: url(/public/images/home/cancer.jpg);"></div>
+              </li>
+            </ul>
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
+      </div>
+
+    </section>
+    <section class="worldwide-container">
+      <div class="center text-box">
+        <div class="text">
+          <div class="title wow fadeInLeft">全球普惠医疗</div>
+          <div class="desc wow fadeInLeft" data-wow-delay="100ms">
+            全球普惠医疗的特性包括了普及度高、有惠民性、属于社会医疗保险的
+            有效补充。现在越来越多的地区都相继推出了普惠型补充医疗保产品，配置
+            的关注程度一度还超过了百万医疗保险
+          </div>
+          <a href="" class="more wow fadeInLeft" data-wow-delay="200ms">
+            <i class="iconfont more-btn icon-youjiantou"></i>
+          </a>
+        </div>
+      </div>
+      <div class="map">
+        <img src="/public/images/home/map.png" alt="地图">
+        <div class="dots">
+          <i class="dot" data-x="53.5%" data-y="22%"></i>
+          <i class="dot" data-x="77%" data-y="31.5%"></i>
+          <i class="dot" data-x="84%" data-y="44%"></i>
+          <i class="dot" data-x="78%" data-y="60%"></i>
+        </div>
+      </div>
+    </section>
+    <section class="team-container">
+      <div class="title-module center">
+        <div class="left-layout">
+          <div class="title wow fadeInRight">私人医生团队</div>
+        </div>
+        <div class="right-layout">
+          <a href="" class="more  wow fadeInLeft">
+            <i class="iconfont more-btn icon-youjiantou"></i>
+          </a>
+        </div>
+      </div>
+      <div class="team-swiper-container">
+        <div class="team-swiper center swiper-container">
+          <ul class="swiper-wrapper team-list">
+            <li class="swiper-slide team-item">
+              <div class="img" style="background-image: url(/public/images/home/doctor1.jpg);">
+                <div class="hover">
+                  <a href="" class="more">
+                    <i class="iconfont more-btn icon-youjiantou"></i>
+                  </a>
+                </div>
+              </div>
+              <div class="fullname">李骨一</div>
+            </li>
+            <li class="swiper-slide team-item">
+              <div class="img" style="background-image: url(/public/images/home/doctor1.jpg);">
+                <div class="hover">
+                  <a href="" class="more">
+                    <i class="iconfont more-btn icon-youjiantou"></i>
+                  </a>
+                </div>
+              </div>
+              <div class="fullname">李骨一</div>
+            </li>
+            <li class="swiper-slide team-item">
+              <div class="img" style="background-image: url(/public/images/home/doctor1.jpg);">
+                <div class="hover">
+                  <a href="" class="more">
+                    <i class="iconfont more-btn icon-youjiantou"></i>
+                  </a>
+                </div>
+              </div>
+              <div class="fullname">李骨一</div>
+            </li>
+            <li class="swiper-slide team-item">
+              <div class="img" style="background-image: url(/public/images/home/doctor1.jpg);">
+                <div class="hover">
+                  <a href="" class="more">
+                    <i class="iconfont more-btn icon-youjiantou"></i>
+                  </a>
+                </div>
+              </div>
+              <div class="fullname">李骨一</div>
+            </li>
+          </ul>
+        </div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+      </div>
+    </section>
+    <section class="news-container">
+      <div class="title-module center">
+        <div class="left-layout">
+          <div class="title wow fadeInRight">新闻资讯</div>
+        </div>
+        <div class="right-layout">
+          <a href="" class="more wow fadeInLeft">
+            <i class="iconfont more-btn icon-youjiantou"></i>
+          </a>
+        </div>
+      </div>
+      <ul class="news-list center">
+        <li class="news-item wow fadeInUp">
+          <div class="img" style="background-image: url(/public/images/home/new1.jpg);"></div>
+          <div class="text">
+            <div class="date">2021-06-29</div>
+            <h2 class="title">三种主要癌症疗法与免疫细胞疗法</h2>
+            <div class="desc">免疫细胞疗法被称为癌症治疗中副作用最小的全身治疗
+              该疗法的基本概念是增强人体的免疫功能，以消除  ...</div>
+              <a href="" class="more">
+                <span>查看更多</span>
+                <i class="iconfont icon-youjiantou"></i>
+              </a>
+          </div>
+        </li>
+        <li class="news-item wow fadeInUp" data-wow-delay="100ms">
+          <div class="img" style="background-image: url(/public/images/home/new2.jpg);"></div>
+          <div class="text">
+            <div class="date">2021-06-29</div>
+            <h2 class="title">三种主要癌症疗法与免疫细胞疗法</h2>
+            <div class="desc">免疫细胞疗法被称为癌症治疗中副作用最小的全身治疗
+              该疗法的基本概念是增强人体的免疫功能，以消除  ...</div>
+              <a href="" class="more">
+                <span>查看更多</span>
+                <i class="iconfont icon-youjiantou"></i>
+              </a>
+          </div>
+        </li>
+        <li class="news-item wow fadeInUp" data-wow-delay="200ms">
+          <div class="img" style="background-image: url(/public/images/home/new3.jpg);"></div>
+          <div class="text">
+            <div class="date">2021-06-29</div>
+            <h2 class="title">三种主要癌症疗法与免疫细胞疗法</h2>
+            <div class="desc">免疫细胞疗法被称为癌症治疗中副作用最小的全身治疗
+              该疗法的基本概念是增强人体的免疫功能，以消除  ...</div>
+              <a href="" class="more">
+                <span>查看更多</span>
+                <i class="iconfont icon-youjiantou"></i>
+              </a>
+          </div>
+        </li>
+      </ul>
+    </section>
+    <!-- 引入公共页尾 -->
+    <%= require("html-loader!../common/footer/index.html") %>
+</body>
+
+</html>

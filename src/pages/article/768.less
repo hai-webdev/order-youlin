@@ -1,0 +1,72 @@
+@import "~@/assets/global.less";
+@import "~@/assets/inner.less";
+
+
+.main {
+  padding: 15px 0;
+  .main-cont {
+    .left-layout {
+      width: 100%;
+      .head {
+          display: flex;
+          flex-wrap: wrap;
+        .title-module {
+          width: 100%;
+          margin-right: 0;
+          padding: 15px;
+          margin-bottom: 10px;
+          .title {
+            width: 100%;
+            .cn-title {
+              font-size: 22px;
+              margin-bottom: 20px;
+            }
+            .en-title {
+              font-size: 14px;
+            }
+          }
+          .number {
+            border-top: 1px solid #dee4ed;
+            padding-top: 5px;
+          }
+        }
+        .infos {
+          width: 100%;
+          .info {
+            width: 100%;
+            padding: 5px;
+            .name {
+              font-size: 20px;
+              padding-bottom: 10px;
+              margin-bottom: 0;
+              .subname {
+                font-size: 14px;
+                margin-left: 20px;
+              }
+            }
+            .desc {
+                padding: 10px 0;
+              font-size: 13px;
+              line-height: 1.5;
+            }
+          }
+          .photo {
+            width: 100%;
+            height: 300px;
+            position: relative;
+            background-color: #f6f7f9;
+            img {
+              position: absolute;
+              left: 0;
+              top: 0;
+              width: 100%;
+              height: 100%;
+              object-fit: contain;
+            }
+          }
+        }
+      }
+ 
+    }
+  }
+}
