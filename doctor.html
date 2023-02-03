@@ -2,14 +2,14 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
   <title>Document</title>
-</head>
+<link href="/src/css/common.css" rel="stylesheet"><link href="/src/css/doctor.css" rel="stylesheet"></head>
 
 <body>
   <!-- 引入公共页头 -->
-  <%= require("html-loader!../common/header/index.html") %>
+  <header class="pc-header"> <div class="main-head center"> <div class="left-layout"> <h1 class="logo wow fadeInLeft" style="background-image:url(/public/images/logo.png)"> <a href="/">友林医药</a> </h1> </div> <div class="right-layout"> <ul class="nav-list"> <li class="nav-item wow fadeInRight"> <a class="on" href="/">首页</a> </li> <li class="nav-item wow fadeInRight"> <a href="javascript:;">关于友林</a> </li> <li class="nav-item wow fadeInRight"> <a href="article.html">慢性疾病管理中心</a> </li> <li class="nav-item wow fadeInRight"> <a href="doctor.html">癌症诊疗中心</a> </li> <li class="nav-item wow fadeInRight"> <a href="javascript:;">线上药局</a> </li> <li class="nav-item wow fadeInRight"> <a href="contact.html">联系我们</a> </li> </ul> <div class="search-box"> <input type="text" placeholder="请输入关键词"> <button type="submit"> <i class="icon"> <img src="/public/images/search.png" alt="搜索按钮"> </i> </button> </div> <div class="menu-btn"> <span></span> <span></span> <span></span> </div> <div class="language-box"> <div class="language-show"> <span>CN</span> <i class="icon"> <img src="/public/images/arrow-down.png" alt="下拉按钮"> </i> </div> <ul class="language-list"> <li class="language-item"> <a href="">日语</a> </li> <li class="language-item"> <a href="">英语</a> </li> <li class="language-item"> <a href="">中文</a> </li> </ul> </div> </div> </div> </header>
     <section class="banner-container">
       <div class="center">
         <div class="text">
@@ -162,7 +162,7 @@
       </div>
     </section>
     <!-- 引入公共页尾 -->
-    <%= require("html-loader!../common/footer/index.html") %>
-</body>
+    <footer> <div class="center foot"> <div class="left-layout"> <a href="" class="logo wow fadeInLeft"> <img src="/public/images/foot-logo.png" alt=""> </a> <ul class="tels wow fadeInLeft"> <li class="tel"> <img src="/public/images/tel.png" alt="" class="icon"> <a href="tel:+81-80-9697-5888" class="tel">+81-80-9697-5888</a> <span>（中文）</span> </li> <li class="tel"> <img src="/public/images/tel.png" alt="" class="icon"> <a href="tel:+81-3-5826-4342" class="tel">+81-3-5826-4342</a> <span>（日语）</span> </li> </ul> <div class="contacts wow fadeInLeft"> <div class="contact"> <span>总部地址：</span> <span>东京都千代田区外神田6-2-9</span> </div> <div class="contact"> <span>服务时间：</span> <span> 8:00-19:00（东京时间）<br> 7:00-18:00（北京时间） </span> </div> </div> </div> <div class="right-layout wow fadeInRight"> <div class="title">相关平台</div> <div class="link"> <a href="" class="on">友林医药京东旗舰店</a> <a href="">什保仓全球</a> </div> </div> </div> <div class="bottom center"> <div class="copyright wow fadeInLeft"> 版权所有 Copyright © 2021右林集团. <a href="">隐私条款 </a> <a href="https://beian.miit.gov.cn/">沪ICP备05036601号-1</a> </div> <div class="icons wow fadeInRight"> <a href=""> <img src="/public/images/weibo.png" alt=""> </a> <a href=""> <img src="/public/images/facebook.png" alt=""> </a> <a href=""> <img src="/public/images/feige.png" alt=""> </a> </div> </div> </footer>
+<script src="/src/js/styles~article~contact~doctor~index.js"></script><script src="/src/js/vendors~article~contact~doctor~index.js"></script><script src="/src/js/doctor.js"></script></body>
 
 </html>
